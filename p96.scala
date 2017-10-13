@@ -19,7 +19,7 @@ class FlexibleFamily(dad: String, mom: String, children: String*) {
 }
 val f3 = new FlexibleFamily("Mom", "Dad", "Sally", "Dick")
 f3.familySize() is 4
-val f4 = new Family("Mom", "Dad", "Harry")
+val f4 = new FlexibleFamily("Mom", "Dad", "Harry")
 f4.familySize() is 3
 // 3.
 // 不用修改原来的代码，可变参数缺失也能正常工作
