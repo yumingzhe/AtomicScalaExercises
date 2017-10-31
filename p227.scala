@@ -1,4 +1,4 @@
-import AtomicTest._
+import com.atomicscala.AtomicTest._
 // 1.
 val people = Vector("Sally Smith",
   "Dan Jones", "Tom Brown", "Betsy Blanc",
